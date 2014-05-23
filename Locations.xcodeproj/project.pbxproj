@@ -14,13 +14,20 @@
 		5803574E192DF67400FA61A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803574D192DF67400FA61A0 /* main.m */; };
 		58035752192DF67400FA61A0 /* DMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58035751192DF67400FA61A0 /* DMLAppDelegate.m */; };
 		58035755192DF67400FA61A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58035753192DF67400FA61A0 /* Main.storyboard */; };
-		58035758192DF67400FA61A0 /* DMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58035757192DF67400FA61A0 /* DMLViewController.m */; };
 		5803575A192DF67400FA61A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58035759192DF67400FA61A0 /* Images.xcassets */; };
 		58035761192DF67400FA61A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58035760192DF67400FA61A0 /* XCTest.framework */; };
 		58035762192DF67400FA61A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58035741192DF67400FA61A0 /* Foundation.framework */; };
 		58035763192DF67400FA61A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58035745192DF67400FA61A0 /* UIKit.framework */; };
 		5803576B192DF67400FA61A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58035769192DF67400FA61A0 /* InfoPlist.strings */; };
 		5803576D192DF67400FA61A0 /* LocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803576C192DF67400FA61A0 /* LocationsTests.m */; };
+		5803577B192DFB4300FA61A0 /* Locations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58035779192DFB4300FA61A0 /* Locations.xcdatamodeld */; };
+		5803577E192E1A4500FA61A0 /* DMLLocationsStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803577D192E1A4500FA61A0 /* DMLLocationsStack.m */; };
+		58035781192E1A8900FA61A0 /* DMLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58035780192E1A8900FA61A0 /* DMLRootViewController.m */; };
+		58035785192E233A00FA61A0 /* DMLArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 58035784192E233A00FA61A0 /* DMLArrayDataSource.m */; };
+		58035788192E29CC00FA61A0 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 58035787192E29CC00FA61A0 /* Event.m */; };
+		5803578A192E2E1400FA61A0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58035789192E2E1400FA61A0 /* CoreData.framework */; };
+		5803578C192E350B00FA61A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5803578B192E350B00FA61A0 /* CoreLocation.framework */; };
+		58035790192EC94600FA61A0 /* DMLDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803578F192EC94600FA61A0 /* DMLDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,25 @@
 		58035750192DF67400FA61A0 /* DMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLAppDelegate.h; sourceTree = "<group>"; };
 		58035751192DF67400FA61A0 /* DMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLAppDelegate.m; sourceTree = "<group>"; };
 		58035754192DF67400FA61A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		58035756192DF67400FA61A0 /* DMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLViewController.h; sourceTree = "<group>"; };
-		58035757192DF67400FA61A0 /* DMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLViewController.m; sourceTree = "<group>"; };
 		58035759192DF67400FA61A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5803575F192DF67400FA61A0 /* LocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58035760192DF67400FA61A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		58035768192DF67400FA61A0 /* LocationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationsTests-Info.plist"; sourceTree = "<group>"; };
 		5803576A192DF67400FA61A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5803576C192DF67400FA61A0 /* LocationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsTests.m; sourceTree = "<group>"; };
+		5803577A192DFB4300FA61A0 /* Locations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Locations.xcdatamodel; sourceTree = "<group>"; };
+		5803577C192E1A4500FA61A0 /* DMLLocationsStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLLocationsStack.h; sourceTree = "<group>"; };
+		5803577D192E1A4500FA61A0 /* DMLLocationsStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLLocationsStack.m; sourceTree = "<group>"; };
+		5803577F192E1A8900FA61A0 /* DMLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLRootViewController.h; sourceTree = "<group>"; };
+		58035780192E1A8900FA61A0 /* DMLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLRootViewController.m; sourceTree = "<group>"; };
+		58035783192E233A00FA61A0 /* DMLArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLArrayDataSource.h; sourceTree = "<group>"; };
+		58035784192E233A00FA61A0 /* DMLArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLArrayDataSource.m; sourceTree = "<group>"; };
+		58035786192E29CC00FA61A0 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		58035787192E29CC00FA61A0 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		58035789192E2E1400FA61A0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5803578B192E350B00FA61A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5803578E192EC94600FA61A0 /* DMLDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMLDataManager.h; path = ../DMLDataManager.h; sourceTree = "<group>"; };
+		5803578F192EC94600FA61A0 /* DMLDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMLDataManager.m; path = ../DMLDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5803578C192E350B00FA61A0 /* CoreLocation.framework in Frameworks */,
+				5803578A192E2E1400FA61A0 /* CoreData.framework in Frameworks */,
 				58035744192DF67400FA61A0 /* CoreGraphics.framework in Frameworks */,
 				58035746192DF67400FA61A0 /* UIKit.framework in Frameworks */,
 				58035742192DF67400FA61A0 /* Foundation.framework in Frameworks */,
@@ -101,6 +121,8 @@
 		58035740192DF67400FA61A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5803578B192E350B00FA61A0 /* CoreLocation.framework */,
+				58035789192E2E1400FA61A0 /* CoreData.framework */,
 				58035741192DF67400FA61A0 /* Foundation.framework */,
 				58035743192DF67400FA61A0 /* CoreGraphics.framework */,
 				58035745192DF67400FA61A0 /* UIKit.framework */,
@@ -112,11 +134,10 @@
 		58035747192DF67400FA61A0 /* Locations */ = {
 			isa = PBXGroup;
 			children = (
-				58035750192DF67400FA61A0 /* DMLAppDelegate.h */,
-				58035751192DF67400FA61A0 /* DMLAppDelegate.m */,
-				58035753192DF67400FA61A0 /* Main.storyboard */,
-				58035756192DF67400FA61A0 /* DMLViewController.h */,
-				58035757192DF67400FA61A0 /* DMLViewController.m */,
+				58035776192DFA8D00FA61A0 /* AppDelegate */,
+				5803578D192EC66100FA61A0 /* Classes */,
+				58035778192DFB1800FA61A0 /* Models */,
+				58035777192DFAA200FA61A0 /* Controllers */,
 				58035759192DF67400FA61A0 /* Images.xcassets */,
 				58035748192DF67400FA61A0 /* Supporting Files */,
 			);
@@ -150,6 +171,48 @@
 				58035769192DF67400FA61A0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58035776192DFA8D00FA61A0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				58035750192DF67400FA61A0 /* DMLAppDelegate.h */,
+				58035751192DF67400FA61A0 /* DMLAppDelegate.m */,
+				58035753192DF67400FA61A0 /* Main.storyboard */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		58035777192DFAA200FA61A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5803577F192E1A8900FA61A0 /* DMLRootViewController.h */,
+				58035780192E1A8900FA61A0 /* DMLRootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		58035778192DFB1800FA61A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58035779192DFB4300FA61A0 /* Locations.xcdatamodeld */,
+				58035786192E29CC00FA61A0 /* Event.h */,
+				58035787192E29CC00FA61A0 /* Event.m */,
+				5803577C192E1A4500FA61A0 /* DMLLocationsStack.h */,
+				5803577D192E1A4500FA61A0 /* DMLLocationsStack.m */,
+				58035783192E233A00FA61A0 /* DMLArrayDataSource.h */,
+				58035784192E233A00FA61A0 /* DMLArrayDataSource.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5803578D192EC66100FA61A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5803578E192EC94600FA61A0 /* DMLDataManager.h */,
+				5803578F192EC94600FA61A0 /* DMLDataManager.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +314,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				58035752192DF67400FA61A0 /* DMLAppDelegate.m in Sources */,
+				5803577E192E1A4500FA61A0 /* DMLLocationsStack.m in Sources */,
+				58035785192E233A00FA61A0 /* DMLArrayDataSource.m in Sources */,
 				5803574E192DF67400FA61A0 /* main.m in Sources */,
-				58035758192DF67400FA61A0 /* DMLViewController.m in Sources */,
+				5803577B192DFB4300FA61A0 /* Locations.xcdatamodeld in Sources */,
+				58035790192EC94600FA61A0 /* DMLDataManager.m in Sources */,
+				58035781192E1A8900FA61A0 /* DMLRootViewController.m in Sources */,
+				58035788192E29CC00FA61A0 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +535,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58035779192DFB4300FA61A0 /* Locations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5803577A192DFB4300FA61A0 /* Locations.xcdatamodel */,
+			);
+			currentVersion = 5803577A192DFB4300FA61A0 /* Locations.xcdatamodel */;
+			path = Locations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 58035736192DF67400FA61A0 /* Project object */;
 }
